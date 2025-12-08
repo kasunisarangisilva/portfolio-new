@@ -6,12 +6,12 @@ const Testimonials = () => {
   return (
     <section id="testimonials" className="flex-center section-padding">
       <div className="w-full h-full md:px-10 px-5">
-        <TitleHeader
+        {/* <TitleHeader
           title="What People Say About Me?"
           sub="⭐️ Customer feedback highlights"
-        />
+        /> */}
 
-        <div className="lg:columns-3 md:columns-2 columns-1 mt-16">
+        {/* <div className="lg:columns-3 md:columns-2 columns-1 mt-16">
           {testimonials.map((testimonial, index) => (
             <GlowCard card={testimonial} key={index} index={index}>
               <div className="flex items-center gap-3">
@@ -25,7 +25,7 @@ const Testimonials = () => {
               </div>
             </GlowCard>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

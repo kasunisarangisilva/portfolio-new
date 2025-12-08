@@ -48,16 +48,13 @@ const AppShowcase = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+            <div className="image-wrapper object-cover">
+              <img src="/images/saleswin.png" alt="Ryde App Interface" />
             </div>
             <div className="text-content">
-              <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
+              <h2>On-Demand sales and inventory management system</h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
+                The system built with React, Expo, & TailwindCSS for a fast,
                 user-friendly experience.
               </p>
             </div>
@@ -65,20 +62,21 @@ const AppShowcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
-                <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
-                />
+              <div className=" object-cover ">
+                <img src="/images/esco.png" alt="Library Management Platform" />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Escogram</h2>
+              <p className="text-white-50 md:text-xl">
+                The system built with Next.js, Expo, & TailwindCSS for a fast,
+                user-friendly experience.
+              </p>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+              <div className=" object-cover ">
+                <img src="/images/chamber.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Lawyer Management System</h2>
             </div>
           </div>
         </div>
